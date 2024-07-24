@@ -142,7 +142,7 @@ with left_column:
 # Right column for displaying the processed image and results
 with right_column:
     st.subheader("Processed Image and Results")
-    st.text_area('Returning Image', 'Once you upload the photos, a new brand litter score will be generated based on the updated information. You can view the litter scores of the brands you care about while shopping on Amazon. Download the Chrome extension here.')
+    st.text_area('Returning Image', 'Once you upload the photos, a new brand litter score will be generated based on the updated information. You can view the litter scores of the brands you care about while shopping on Amazon.')
     
     if uploaded_file is not None:
         # Read the uploaded file
